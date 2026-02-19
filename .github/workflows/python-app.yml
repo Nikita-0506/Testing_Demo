@@ -22,7 +22,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: ' 3.11.4'
+          python-version: '3.8'
 
       # Step 3: Install dependencies
       - name: Install dependencies
@@ -32,8 +32,4 @@ jobs:
 
       # Step 4: Run tests
       - name: Run tests
-<<<<<<< HEAD
         run: pytest
-=======
-        run: pytest
->>>>>>> 4e9b37f5de909a738b09148f21834e8c644d6c78
