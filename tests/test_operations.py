@@ -1,4 +1,4 @@
-from src.math_operations import add,sub,mul
+from src.math_operations import add,sub,mul,div
 
 def test_add():
     assert add(2,3)==5
@@ -12,3 +12,7 @@ def test_sub():
 
 def test_mul():
     assert mul(5,3)==15
+
+def test_div():
+    assert div(10,2)==5
+    assert div(9,3)==3
